@@ -1,4 +1,4 @@
-# 📦 E-Commerce Backend (Mobile Store)
+# 📦 E-Commerce Backend
 
 This is the backend for a e-commerce website built using Node.js. It provides RESTful APIs for user authentication, product management, shopping cart operations, and order processing.
 
