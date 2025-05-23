@@ -5,7 +5,7 @@ import { registerSchema, loginSchema } from '../validations/userValidation.js';
 
 const router = express.Router();
 
-router.post('/register', validate(registerSchema), register);
-router.post('/login', validate(loginSchema), login);
+router.post('/register', register);
+router.post('/login', login);
 router.get('/getallusers', getallUsers);
 export default router;
